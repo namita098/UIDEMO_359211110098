@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
     private loginModel model = new loginModel();
-    //import object from scene builder
+    //import object from scene builde
     @FXML
     private Label dbStatus;
     @FXML
