@@ -10,7 +10,7 @@ public class studentData {
     private  final StringProperty email;
     private  final StringProperty DOB;
 
-    //constructor
+    //constructo
     public studentData(String ID,
                        String firstName,
                        String lastName,
