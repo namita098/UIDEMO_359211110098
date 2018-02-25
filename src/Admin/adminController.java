@@ -31,13 +31,13 @@ public class adminController implements Initializable{
     @FXML
     private TableColumn<studentData, String> idcolum;
     @FXML
-    private TableColumn<studentData, String> firstnamecolum;
+    private TableColumn<studentData, String> firstnamecolumn;
     @FXML
-    private TableColumn<studentData, String> lastnamecolum;
+    private TableColumn<studentData, String> lastnamecolumn;
     @FXML
-    private TableColumn<studentData, String> emailcolum;
+    private TableColumn<studentData, String> emailcolumn;
     @FXML
-    private TableColumn<studentData, String> dobcolum;
+    private TableColumn<studentData, String> DOBcolumn;
     @FXML
     private TextField searchTxt;
     @FXML
@@ -82,13 +82,13 @@ public class adminController implements Initializable{
         //put student data to tableview
         this.idcolum.setCellValueFactory(
                 new PropertyValueFactory<studentData,String>("ID"));
-        this.firstnamecolum.setCellValueFactory(
-                new PropertyValueFactory<studentData,String>("firstName"));
-        this.lastnamecolum.setCellValueFactory(
-                new PropertyValueFactory<studentData,String>("lastName"));
-        this.emailcolum.setCellValueFactory(
-                new PropertyValueFactory<studentData,String>("email"));
-        this.dobcolum.setCellValueFactory(
+        this.firstnamecolumn.setCellValueFactory(
+                new PropertyValueFactory<studentData,String>("FirstName"));
+        this.lastnamecolumn.setCellValueFactory(
+                new PropertyValueFactory<studentData,String>("LastName"));
+        this.emailcolumn.setCellValueFactory(
+                new PropertyValueFactory<studentData,String>("Email"));
+        this.DOBcolumn.setCellValueFactory(
                 new PropertyValueFactory<studentData, String>("DOB"));
 
         this.studentTable.setItems(null);

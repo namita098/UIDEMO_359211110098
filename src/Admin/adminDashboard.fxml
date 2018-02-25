@@ -23,11 +23,11 @@
                      <children>
                         <TableView layoutX="221.0" layoutY="93.0" prefHeight="200.0" prefWidth="501.0">
                           <columns>
-                            <TableColumn fx:id="idcolum" prefWidth="40.33331298828125" text="ID" />
-                            <TableColumn fx:id="fistnamecolum" prefWidth="68.66668701171875" text="Fistname" />
-                              <TableColumn fx:id="lastnamecolum" prefWidth="124.0" text="Lastname" />
-                              <TableColumn fx:id="emailcolum" prefWidth="182.66668701171875" text="Email" />
-                              <TableColumn fx:id="DOBcolum" prefWidth="86.33331298828125" text="DOB" />
+                            <TableColumn fx:id="idcolumn" prefWidth="40.33331298828125" text="ID" />
+                            <TableColumn fx:id="firstnamecolumn" prefWidth="68.66668701171875" text="Fistname" />
+                              <TableColumn fx:id="lastnamecolumn" prefWidth="124.0" text="Lastname" />
+                              <TableColumn fx:id="emailcolumn" prefWidth="182.66668701171875" text="Email" />
+                              <TableColumn fx:id="DOBcolumn" prefWidth="86.33331298828125" text="DOB" />
                           </columns>
                         </TableView>
                         <JFXButton fx:id="btnLoad" layoutX="602.0" layoutY="45.0" prefHeight="25.0" prefWidth="111.0" style="-fx-background-color: #ba2d65;" text="LoadData" />
